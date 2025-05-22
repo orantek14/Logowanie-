@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logowanie</title>
+<form action="proces_login.php" method="post">
+ <div class="login-container">
+ <div class="input-group">
+ <input type="text" placeholder="User" name="login" class="custom-placeholder user-input" id="a" required>
+    </div>
+    <div class="input-group">
+ <input type="password" name="haslo" placeholder="Password" class="custom-placeholder" id="b" required>
+ </div>
+    <button type="submit">Login</button>
+        </div>
+<div class="ball"></div>
+<div class="ball2"></div>
+<div id="message" class="yyy">niepoprawne hasło lub login</div>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
